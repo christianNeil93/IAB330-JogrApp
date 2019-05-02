@@ -236,7 +236,7 @@ namespace jogr
                 Console.Out.WriteLine("Connection Invalid");
             }
             Console.Out.WriteLine("Try Requesting");
-            string apiKey = "AIzaSyBj3FmgND9IRoLFfh25eiE2x6Hg37uzDg4";
+            string apiKey = "GOOGLEKEY";
             string requesturl = "https://maps.googleapis.com/maps/api/directions/json?" + "mode=walking" + "&units=metric"  + "&avoid=ferries"
                 + "&origin=" + startLocation.Latitude.ToString() + "," + startLocation.Longitude.ToString() 
                 + "&destination=" + endLocation.Latitude.ToString() + "," + endLocation.Longitude.ToString()
